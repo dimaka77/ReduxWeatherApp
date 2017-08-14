@@ -1,11 +1,4 @@
 // Find bugs and fix them
-// 1. this.onInputChange = this.onInputChange.bind(this);
-// 2. this.onFormSubmit = this.onFormSubmit.bind(this);
-// 3. <form onSubmit={this.onFormSubmit} className="input-group">
-// 4. this.setState({inputFieldValue: event.target.value}); 
-// 5. function mapDispatchToProps(dispatch) {
-	// return bindActionCreators({fetchWeather}, dispatch);
-//}
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
